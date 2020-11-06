@@ -5,4 +5,6 @@ export const Main = styled.main`
   width: 100%;
   background-image: url(${props => props.backgroundImage});
   background-size: cover;
+  display: flex;
+  justify-content: center;
 `;
